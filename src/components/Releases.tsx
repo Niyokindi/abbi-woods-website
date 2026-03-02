@@ -8,21 +8,21 @@ const releases = [
     title: "TOO LATE",
     type: "Single",
     date: "2025",
-    gradient: "from-rose-900/60 to-amber-900/60",
+    gradient: "from-blue-950/80 to-slate-900/80",
     listenUrl: "https://open.spotify.com/track/1lfQeVezs2zGqPUWrVhQ8c",
   },
   {
     title: "Scattered Bodies",
     type: "Single",
     date: "2025",
-    gradient: "from-indigo-900/60 to-purple-900/60",
+    gradient: "from-gray-900/80 to-blue-900/60",
     listenUrl: "https://open.spotify.com/track/5iuSKKJcR7Nd4RdqP8GN9O",
   },
   {
     title: "HBD",
     type: "Single",
     date: "2025",
-    gradient: "from-teal-900/60 to-emerald-900/60",
+    gradient: "from-slate-900/80 to-zinc-900/80",
     listenUrl: "https://open.spotify.com/track/4pm4HsOqJFTvOSv5rhiNMD",
   },
 ];
@@ -43,7 +43,7 @@ export default function Releases() {
           <p className="text-sm uppercase tracking-[0.3em] text-accent mb-3">
             Latest
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-light tracking-wider uppercase">
+          <h2 className="font-heading text-4xl md:text-6xl tracking-tight uppercase">
             Releases
           </h2>
         </motion.div>
@@ -63,7 +63,7 @@ export default function Releases() {
                   className={`aspect-square rounded-lg overflow-hidden bg-gradient-to-br ${release.gradient} border border-white/5`}
                 >
                   <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="font-serif text-5xl text-white/10 tracking-widest uppercase select-none">
+                    <span className="font-heading text-5xl text-white/10 tracking-widest uppercase select-none">
                       {release.title.charAt(0)}
                     </span>
                   </div>
@@ -83,7 +83,7 @@ export default function Releases() {
                 </div>
                 <div className="absolute -inset-2 rounded-xl bg-accent/0 group-hover:bg-accent/5 blur-xl transition-all duration-500 -z-10" />
               </div>
-              <h3 className="font-serif text-lg tracking-wide group-hover:text-accent transition-colors duration-300">
+              <h3 className="font-heading text-lg tracking-wide group-hover:text-accent transition-colors duration-300">
                 {release.title}
               </h3>
               <p className="text-sm text-muted mt-1">

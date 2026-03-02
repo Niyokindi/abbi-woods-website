@@ -1,10 +1,11 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen w-full overflow-hidden">
+    <section className="relative min-h-screen w-full overflow-hidden">
       <video
         autoPlay
         muted
@@ -17,56 +18,64 @@ export default function Hero() {
 
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
 
-      <div className="relative z-10 flex h-full flex-col items-center justify-center px-6 text-center">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="mb-4 text-sm uppercase tracking-[0.3em] text-accent"
-        >
-          Official Website
-        </motion.p>
-        <motion.h1
+      <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center">
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="font-serif text-6xl md:text-8xl lg:text-9xl font-light tracking-wider uppercase"
         >
-          Abbi Woods
-        </motion.h1>
-        <motion.p
+          <Image
+            src="/images/logo.png"
+            alt="Abbi Woods"
+            width={500}
+            height={500}
+            className="w-80 md:w-[28rem] lg:w-[36rem] h-auto"
+            priority
+          />
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-6 max-w-md text-lg text-muted"
+          className="mt-8 flex items-center gap-4"
         >
-          Singer &middot; Songwriter &middot; Artist
-        </motion.p>
-        <motion.a
-          href="#contact"
+          <a
+            href="https://open.spotify.com/track/1lfQeVezs2zGqPUWrVhQ8c"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-accent px-8 py-3 text-sm uppercase tracking-widest text-white hover:bg-accent-hover transition-all duration-500"
+          >
+            Listen Now
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-8 py-3 text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
+          >
+            Next Show
+          </a>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className="mt-10 border border-accent/50 px-8 py-3 text-sm uppercase tracking-widest text-accent hover:bg-accent hover:text-background transition-all duration-500"
+          className="mt-12 w-full max-w-md"
         >
-          Stay Connected
-        </motion.a>
-      </div>
-
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
-      >
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-          className="h-10 w-6 rounded-full border border-white/20 flex items-start justify-center pt-2"
-        >
-          <div className="h-2 w-0.5 rounded-full bg-white/40" />
+          <div className="rounded-lg overflow-hidden">
+            <iframe
+              src="https://laylo.com/abbiwoods/profile/embed?theme=dark&background=transparent"
+              width="100%"
+              height="300"
+              frameBorder="0"
+              title="Sign up for Abbi Woods updates"
+              className="w-full"
+            />
+          </div>
         </motion.div>
-      </motion.div>
+      </div>
     </section>
   );
 }

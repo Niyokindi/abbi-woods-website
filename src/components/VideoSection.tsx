@@ -31,7 +31,7 @@ export default function VideoSection() {
           <p className="text-sm uppercase tracking-[0.3em] text-accent mb-3">
             Behind the Scenes
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-light tracking-wider uppercase">
+          <h2 className="font-heading text-4xl md:text-6xl tracking-tight uppercase">
             Exclusive Video
           </h2>
         </motion.div>

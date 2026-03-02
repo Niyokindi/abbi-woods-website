@@ -23,7 +23,7 @@ export default function SmsSignup() {
           <p className="text-sm uppercase tracking-[0.3em] text-accent mb-3">
             Stay Updated
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-light tracking-wider uppercase mb-4">
+          <h2 className="font-heading text-4xl md:text-6xl tracking-tight uppercase mb-4">
             Never Miss a Drop
           </h2>
           <p className="text-muted mb-10 max-w-md mx-auto">

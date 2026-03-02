@@ -57,7 +57,7 @@ export default function Shows() {
           <p className="text-sm uppercase tracking-[0.3em] text-accent mb-3">
             On Tour
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl font-light tracking-wider uppercase">
+          <h2 className="font-heading text-4xl md:text-6xl tracking-tight uppercase">
             Upcoming Shows
           </h2>
         </motion.div>
@@ -73,7 +73,7 @@ export default function Shows() {
             >
               <div className="flex items-center gap-6 md:gap-10">
                 <div className="text-center min-w-[60px]">
-                  <p className="text-accent font-serif text-lg leading-tight">
+                  <p className="text-accent font-heading text-lg leading-tight">
                     {show.date}
                   </p>
                   <p className="text-xs text-muted">{show.year}</p>

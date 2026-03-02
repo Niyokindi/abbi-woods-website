@@ -34,7 +34,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-7xl px-6 py-4 flex items-center justify-between">
         <a
           href="#"
-          className="font-serif text-xl tracking-wider uppercase text-foreground"
+          className="font-heading text-2xl tracking-wide uppercase text-foreground"
         >
           Abbi Woods
         </a>

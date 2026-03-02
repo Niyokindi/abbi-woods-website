@@ -49,7 +49,7 @@ export default function Footer() {
   return (
     <footer className="py-16 px-6 border-t border-white/5">
       <div className="mx-auto max-w-7xl flex flex-col items-center gap-8">
-        <p className="font-serif text-lg tracking-wider uppercase text-foreground/80">
+        <p className="font-heading text-xl tracking-wide uppercase text-foreground/80">
           Abbi Woods
         </p>
 
