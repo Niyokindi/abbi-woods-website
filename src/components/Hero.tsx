@@ -38,25 +38,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-8 w-full max-w-md"
-        >
-          <div className="rounded-lg overflow-hidden">
-            <iframe
-              src="https://laylo.com/abbiwoods/profile/embed?theme=dark&background=transparent"
-              width="100%"
-              height="300"
-              frameBorder="0"
-              title="Sign up for Abbi Woods updates"
-              className="w-full"
-            />
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-          className="mt-2 flex items-center gap-3 md:gap-4"
+          className="mt-8 flex items-center gap-3 md:gap-4"
         >
           <a
             href="https://open.spotify.com/track/1lfQeVezs2zGqPUWrVhQ8c"
@@ -74,6 +56,24 @@ export default function Hero() {
           >
             Next Show
           </a>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.2 }}
+          className="mt-6 w-full max-w-md"
+        >
+          <div className="rounded-lg overflow-hidden">
+            <iframe
+              src="https://laylo.com/abbiwoods/profile/embed?theme=dark&background=transparent"
+              width="100%"
+              height="300"
+              frameBorder="0"
+              title="Sign up for Abbi Woods updates"
+              className="w-full"
+            />
+          </div>
         </motion.div>
       </div>
     </section>
