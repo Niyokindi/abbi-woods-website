@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const socialLinks = [
@@ -49,9 +50,13 @@ export default function Footer() {
   return (
     <footer className="py-16 px-6 border-t border-white/5">
       <div className="mx-auto max-w-7xl flex flex-col items-center gap-8">
-        <p className="font-heading text-xl tracking-wide uppercase text-foreground/80">
-          Abbi Woods
-        </p>
+        <Image
+          src="/images/logo.png"
+          alt="Abbi Woods"
+          width={200}
+          height={200}
+          className="w-32 h-auto"
+        />
 
         <div className="flex items-center gap-6">
           {socialLinks.map((link) => (

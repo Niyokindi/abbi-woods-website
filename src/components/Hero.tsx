@@ -38,31 +38,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-8 flex items-center gap-4"
-        >
-          <a
-            href="https://open.spotify.com/track/1lfQeVezs2zGqPUWrVhQ8c"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-accent px-8 py-3 text-sm uppercase tracking-widest text-white hover:bg-accent-hover transition-all duration-500"
-          >
-            Listen Now
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-white/20 px-8 py-3 text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
-          >
-            Next Show
-          </a>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 1.2 }}
-          className="mt-12 w-full max-w-md"
+          className="mt-8 w-full max-w-md"
         >
           <div className="rounded-lg overflow-hidden">
             <iframe
@@ -74,6 +50,30 @@ export default function Hero() {
               className="w-full"
             />
           </div>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 1.2 }}
+          className="mt-2 flex items-center gap-3 md:gap-4"
+        >
+          <a
+            href="https://open.spotify.com/track/1lfQeVezs2zGqPUWrVhQ8c"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-accent px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:bg-accent-hover transition-all duration-500"
+          >
+            Listen Now
+          </a>
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
+          >
+            Next Show
+          </a>
         </motion.div>
       </div>
     </section>
