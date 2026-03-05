@@ -40,15 +40,14 @@ export default function SmsSignup() {
           {/* Replace "abbiwoods" with the actual Laylo username */}
           <div className="rounded-lg overflow-hidden">
             <iframe
-              src="https://laylo.com/abbiwoods/profile/embed?theme=dark&background=transparent"
+              src="https://laylo.com/abbiwoods"
               width="100%"
               height="300"
               frameBorder="0"
-              title="Sign up for Abbi Woods updates"
               className="w-full"
             />
           </div>
-
+          
           <p className="text-xs text-muted/60 mt-6 max-w-sm mx-auto leading-relaxed">
             By submitting my information, I agree to receive recurring automated
             messages to the contact information provided and to{" "}

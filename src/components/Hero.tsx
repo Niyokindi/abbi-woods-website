@@ -38,10 +38,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.8 }}
-          className="mt-8 flex items-center gap-3 md:gap-4"
+          className="mt-5 md:mt-6 flex flex-wrap items-center justify-center gap-3 md:gap-4"
         >
           <a
-            href="https://open.spotify.com/track/1lfQeVezs2zGqPUWrVhQ8c"
+            href="https://linktr.ee/woodsworld"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:bg-accent-hover transition-all duration-500"
@@ -49,20 +49,30 @@ export default function Hero() {
             Listen Now
           </a>
           <a
-            href="#"
+            href="https://www.universe.com/events/summers-haus-season-2-vol-1-tickets-64WDLS?ref=AbbiWoods2026"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
           >
             Next Show
           </a>
+          {/*
+          <a
+            href="https://linktr.ee/woodsworld"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
+          >
+            Socials
+          </a>
+          */}
         </motion.div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.2 }}
-          className="mt-6 w-full max-w-md"
+          className="mt-3 md:mt-4 w-full max-w-md"
         >
           <div className="rounded-lg overflow-hidden">
             <iframe
