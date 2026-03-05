@@ -56,16 +56,14 @@ export default function Hero() {
           >
             Next Show
           </a>
-          {/*
           <a
-            href="https://linktr.ee/woodsworld"
+            href="https://linktr.ee/abbiwoodssocials?utm_source=linktree_profile_share&ltsid=267fc156-b4a3-4922-9d5e-300b871d7162"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
           >
             Socials
           </a>
-          */}
         </motion.div>
 
         <motion.div
