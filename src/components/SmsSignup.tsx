@@ -26,7 +26,7 @@ export default function SmsSignup() {
           <h2 className="font-heading text-4xl md:text-6xl tracking-tight uppercase mb-4">
             Never Miss a Drop
           </h2>
-          <p className="text-muted mb-10 max-w-md mx-auto">
+          <p className="font-heading text-muted mb-10 max-w-md mx-auto">
             Sign up to get notified about new music, shows, and exclusive
             content directly to your phone.
           </p>

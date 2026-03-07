@@ -32,6 +32,15 @@ const socialLinks = [
     ),
   },
   {
+    label: "Apple Music",
+    url: "https://music.apple.com/ca/artist/abbi-woods/1810093355",
+    icon: (
+      <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M7 4.25c0-.52.36-.98.87-1.08l8.08-1.63A1.1 1.1 0 0 1 17.3 2.6v11.03a2.6 2.6 0 1 1-1.1-2.13V7.3L8.1 8.94v6.84A2.6 2.6 0 1 1 7 13.64V4.25z" />
+      </svg>
+    ),
+  },
+  {
     label: "YouTube",
     url: "https://www.youtube.com/channel/UCatNf2_bpW0RQ_e9WJkBCyg",
     icon: (
@@ -40,6 +49,7 @@ const socialLinks = [
       </svg>
     ),
   },
+  
 ];
 
 export default function Footer() {
@@ -82,7 +92,7 @@ export default function Footer() {
         </button>
 
         <p className="text-xs text-muted/50">
-          &copy; {new Date().getFullYear()} Abbi Woods. All rights reserved.
+          &copy; {new Date().getFullYear()} NUCITY. All rights reserved.
         </p>
       </div>
     </footer>

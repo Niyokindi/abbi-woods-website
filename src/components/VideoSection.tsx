@@ -49,8 +49,8 @@ export default function VideoSection() {
               ref={videoRef}
               className="w-full h-full object-cover cursor-pointer"
               playsInline
+              loop
               onClick={togglePlay}
-              onEnded={() => setIsPlaying(false)}
             >
               <source src="/videos/bts-website-video.mp4" type="video/mp4" />
             </video>
