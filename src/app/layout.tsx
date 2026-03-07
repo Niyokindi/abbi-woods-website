@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Permanent_Marker } from "next/font/google";
+import { Inter, Anton } from "next/font/google";
 import "./globals.css";
 
-const permanentMarker = Permanent_Marker({
-  variable: "--font-permanent-marker",
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const anton = Anton({
+  variable: "--font-anton",
   weight: "400",
   subsets: ["latin"],
 });
@@ -22,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${permanentMarker.variable} font-sans antialiased`}
+        className={`${inter.variable} ${anton.variable} font-sans antialiased`}
       >
         {children}
       </body>
