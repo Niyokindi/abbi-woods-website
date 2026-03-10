@@ -49,7 +49,7 @@ export default function Hero() {
             Listen Now
           </a>
           <a
-            href="https://www.universe.com/events/summers-haus-season-2-vol-1-tickets-64WDLS?ref=AbbiWoods2026"
+            href="https://admitone.com/events/toronto/community/music/school-night/MM5ABG"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
