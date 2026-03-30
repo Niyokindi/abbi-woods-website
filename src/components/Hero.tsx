@@ -64,6 +64,14 @@ export default function Hero() {
           >
             Socials
           </a>
+          <a
+            href="https://abbiwoods.myshopify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
+          >
+            Store
+          </a>
         </motion.div>
 
         <motion.div
