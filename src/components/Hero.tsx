@@ -49,7 +49,7 @@ export default function Hero() {
             Listen Now
           </a>
           <a
-            href="https://admitone.com/events/toronto/community/music/school-night/MM5ABG"
+            href="https://www.ticketweb.ca/event/departure-2026-kiki-rowe-ibxrhm-the-baby-g-tickets/14754753?pl=departure"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
