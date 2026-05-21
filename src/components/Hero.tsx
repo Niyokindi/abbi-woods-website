@@ -95,14 +95,14 @@ export default function Hero() {
           className="mt-5 md:mt-6 flex flex-wrap items-center justify-center gap-3 md:gap-4"
         >
           <a
-            href="https://linktr.ee/woodsworld"
+            href="https://abbiwoods.myshopify.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:bg-accent-hover transition-all duration-500"
           >
-            Listen Now
+            Store
           </a>
-          <button
+          {/* <button
             type="button"
             onClick={() => setIsModalOpen(true)}
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500 cursor-pointer"
@@ -116,14 +116,14 @@ export default function Hero() {
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
           >
             Socials
-          </a>
+          </a> */}
           <a
-            href="https://abbiwoods.myshopify.com/"
+            href="https://linktr.ee/woodsworld"
             target="_blank"
             rel="noopener noreferrer"
             className="border border-white/20 px-5 py-2 text-xs md:px-8 md:py-3 md:text-sm uppercase tracking-widest text-white hover:border-accent hover:text-accent transition-all duration-500"
           >
-            Store
+            Listen Now
           </a>
         </motion.div>
 
