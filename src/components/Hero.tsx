@@ -13,7 +13,13 @@ export default function Hero() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
-    videoRef.current?.play().catch(() => {});
+    const v = videoRef.current;
+    if (!v) return;
+    v.muted = true;
+    v.playsInline = true;
+    v.play().catch((err) => {
+      console.warn("Hero video autoplay blocked:", err);
+    });
   }, []);
 
   useEffect(() => {
