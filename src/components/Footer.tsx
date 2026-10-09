@@ -91,6 +91,23 @@ export default function Footer() {
           Back to Top &uarr;
         </button>
 
+        <div className="flex items-center justify-center gap-8 opacity-70">
+          <Image
+            src="/images/oac-logo-white.png"
+            alt="Ontario Arts Council"
+            width={1080}
+            height={300}
+            className="h-8 w-auto"
+          />
+          <Image
+            src="/images/ontario-logo-white.png"
+            alt="Government of Ontario"
+            width={3600}
+            height={1440}
+            className="h-12 w-auto"
+          />
+        </div>
+
         <p className="text-xs text-muted/50">
           &copy; {new Date().getFullYear()} NUCITY. All rights reserved.
         </p>
