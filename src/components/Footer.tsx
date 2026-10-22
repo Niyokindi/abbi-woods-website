@@ -91,20 +91,20 @@ export default function Footer() {
           Back to Top &uarr;
         </button>
 
-        <div className="flex items-center justify-center gap-8 opacity-70">
+        <div className="w-full flex items-center justify-center gap-4 sm:gap-8 opacity-70">
           <Image
             src="/images/oac-logo-white.png"
             alt="Ontario Arts Council"
             width={1080}
             height={300}
-            className="h-8 w-auto"
+            className="w-[40%] h-auto sm:w-auto sm:h-12"
           />
           <Image
             src="/images/ontario-logo-white.png"
             alt="Government of Ontario"
             width={3600}
             height={1440}
-            className="h-12 w-auto"
+            className="w-[45%] h-auto sm:w-auto sm:h-20"
           />
         </div>
 
